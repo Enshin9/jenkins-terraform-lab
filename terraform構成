@@ -28,6 +28,7 @@ hi terraform
       └── 出力値（EC2 IP など）
 
 terraform の変数について
+Terraform では、変数は以下の流れで使用される。
 例えばvpcの場合:
 variables.tf
     ↓

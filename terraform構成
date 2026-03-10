@@ -1,4 +1,4 @@
-terraform
+hi terraform
 │
 ├── main.tf
 │     └── provider（AWSなどの設定）
@@ -26,3 +26,15 @@ terraform
 │
 └── outputs.tf
       └── 出力値（EC2 IP など）
+
+terraform の変数について
+例えばvpcの場合:
+variables.tf
+    ↓
+variable "vpc_cidr"
+    ↓
+terraform.tfvars
+vpc_cidr = "10.0.0.0/16"
+    ↓
+vpc.tf
+cidr_block = var.vpc_cidr

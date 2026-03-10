@@ -1,0 +1,5 @@
+vpc_cidr = "10.42.0.0/16"
+subnet_cidr = "10.42.4.0/24"
+vpc_name = "jenkins_test_vpc"
+subnet_name = "jenkins_test_subnet"
+ec2_name = "dango_jenkins_ec2"

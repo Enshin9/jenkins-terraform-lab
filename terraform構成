@@ -1,0 +1,28 @@
+terraform
+│
+├── main.tf
+│     └── provider（AWSなどの設定）
+│
+├── vpc.tf
+│     ├── aws_vpc
+│     ├── aws_subnet
+│     ├── aws_internet_gateway
+│     └── aws_route_table
+│
+├── ec2.tf
+│     └── aws_instance（Jenkins）
+│
+├── sg.tf
+│     └── aws_security_group
+│
+├── s3.tf
+│     └── aws_s3_bucket
+│
+├── variables.tf
+│     └── 変数の型定義・説明・デフォルト値
+│
+├── terraform.tfvars
+│     └── 変数の値
+│
+└── outputs.tf
+      └── 出力値（EC2 IP など）

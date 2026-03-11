@@ -1,5 +1,5 @@
 resource "aws_instance" "my-ec2" {
-  ami = data.aws_ami.example.id
+  ami = var.ami_id
   instance_type = "t2.micro"
   vpc_id = aws_vpc.main.id
   subnet_id = awd_subnet.main.id #指定したパブリックサブネットに配置

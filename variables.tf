@@ -18,3 +18,11 @@ variable "ec2_name" {
    description = "ec2 name tag"
    type = string 
 }
+variable "igw_name" {
+   description = "igw name tag"
+   type = string
+}
+variable "routetable_name" {
+   description = "rtb name tag"
+   type = string
+}

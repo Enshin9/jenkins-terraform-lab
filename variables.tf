@@ -28,5 +28,8 @@ variable "routetable_name" {
 }
 variable "sg_name" {
    description = "sg name tag"
-   type string 
+   type = string 
+}
+variable "ami_id" {
+   description = "ami id"
 }

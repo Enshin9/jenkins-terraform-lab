@@ -26,3 +26,7 @@ variable "routetable_name" {
    description = "rtb name tag"
    type = string
 }
+variable "sg_name" {
+   description = "sg name tag"
+   type string 
+}

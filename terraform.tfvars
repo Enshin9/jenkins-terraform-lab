@@ -6,4 +6,4 @@ ec2_name = "dango_jenkins_ec2"
 routetable_name = "jenkins_test_rtb"
 igw_name = "jenkins_test_igw"
 sg_name = "jenkins_test_sg"
-ami_id = ####
+ami_id = ami-0575ac99d5a2ab8c0

@@ -33,3 +33,4 @@ variable "sg_name" {
 variable "ami_id" {
    description = "ami id"
 }
+variable "region" {}

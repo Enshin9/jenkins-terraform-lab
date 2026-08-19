@@ -32,9 +32,17 @@ systemctl enable jenkins
 
 # 7. Jenkins起動
 systemctl start jenkins
+
 EOF
 
   tags = {
     Name = var.ec2_name
+  }
+
+
+  lifecycle {
+    ignore_changes = [
+      user_data
+    ]
   }
 }

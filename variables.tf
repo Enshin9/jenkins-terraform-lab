@@ -34,3 +34,13 @@ variable "ami_id" {
   description = "ami id"
 }
 variable "region" {}
+
+variable "ec2_name_app" {
+  description = "ec2 app name tag"
+  type        = string
+}
+
+variable "sg_name_app" {
+  description = "app sg name tag"
+  type        = string
+}
